@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener {
                 $killer->getEffects()->add(
                     new EffectInstance(
                         VanillaEffects::SPEED(),
-                        20 * 10,
+                        20 * 60,
                         1
                     )
                 );
